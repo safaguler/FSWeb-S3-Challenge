@@ -4,8 +4,12 @@
 
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<title>Sprint Challenge - Anasayfa</title>
+	<link href="./css/index.css" rel="stylesheet">
+	<link href="./css/index2.css" rel="stylesheet">
+	<link rel="stylesheet" href="stil.css">
 
 	<link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/5b12ffad4b.js" crossorigin="anonymous"></script>
@@ -15,39 +19,53 @@
 	<div>
 		<!-- header -->
 		<header>
-			<div>
-				ERGİNEER BAR VE MANGAL
+			<div class="conteiner">
+				<a href="./index.html"><h1> ERGİNEER BAR VE MANGAL </h1></a>
+				<nav class="conteiner2">
+					<a href="./menu.html">Menü</a>
+					<a href="./rezervasyon.html">Rezervasyonlar</a>
+					<a href="./ozelTeklifler.html">Özel Teklifler</a>
+					<a href="./iletisim.html">İletişim</a>
+				  </nav>
+				  <nav class="social">
+					<a >
+						<img src="./img/social/face.svg"></img>
+					</a>
+						<a>
+						<img src="./img/social/twit2.svg"></img>
+					</a>
+					<a>
+						<img src="./img/social/insta2.svg"></img>
+					</a>
+				</nav>
+
+				
 
 				<!-- nav -->
-				Menü
-				Rezervasyonlar
-				Özel Teklifler
-				İletişim
+				
 			</div>
 		</header>
 
 		<!-- gallery section -->
 		<section class="gallery">
-			<div>
+			<div class="yemekler">
 				<h2>YEMEKLERİMİZ</h2>
+				<div class="foto-grup">
+					<img src="img/food-avocadotoast.jpg">
+					<img src="img/food-burger.jpg">
+					<img src="img/food-poutine.jpg">
+					<br>
+					<img src="img/food-ribs.jpg">
+					<img src="img/food-sandwich.jpg">
+					<img src="img/food-sausage.jpg">
+					<br>
+					<img src="img/food-steak.jpg">
+					<img src="img/food-tacos.jpg">
+					<img src="img/food-wings.jpg">
+					
 
-				img/food-avocadotoast.jpg
-
-				img/food-burger.jpg
-
-				img/food-poutine.jpg
-
-				img/food-ribs.jpg
-
-				img/food-sandwich.jpg
-
-				img/food-sausage.jpg
-
-				img/food-steak.jpg
-
-				img/food-tacos.jpg
-
-				img/food-wings.jpg
+				  </div>
+				
 			</div>
 		</section>
 
@@ -64,13 +82,13 @@
 
 				<div class="text">
 					<h3>Güzel Yemekler, Güzel İnsanlar</h3>
-					<p>Quis duis aute, shank ut pork eiusmod in ball tip jerky non. Short ribs tail dolore, fatback in
+					<p>"Quis duis aute, shank ut pork eiusmod in ball tip jerky non. Short ribs tail dolore, fatback in
 						tempor meatloaf pig sunt porchetta beef. Ad hamburger pig veniam, andouille exercitation cillum
 						eiusmod doner irure tail burgdoggen rump chislic officia. Pancetta frankfurter sed, est t-bone
 						porchetta capicola id tri-tip cillum cow leberkas do minim. Sausage ea velit boudin laboris
 						dolore
 						short loin corned beef commodo jowl beef dolor tempor. Dolor culpa enim in meatloaf, ham mollit
-						shankle duis chicken dolore andouille do tenderloin qui.</p>
+						shankle duis chicken dolore andouille do tenderloin qui."</p>
 				</div>
 
 				<div id="bartender" class="pic">
@@ -125,15 +143,28 @@
 		<!-- footer -->
 		<footer>
 			<!-- email signup -->
-			Mail listemize katılın!
-			Üye Ol
+			<div class="sondanOnce">
+			
+			  
 			<!-- nav -->
-			Menü
-			Rezervasyonlar
-			Özel Teklifler
-			İletişim
+			<nav>
+				<a>Mail listemize katılın!</a>
+				<a href="./menu.html">Menü</a>
+				<a href="./rezervasyon.html">Rezervasyonlar</a>
+				<a href="./ozelTeklif.html">Özel Teklifler</a>
+				<a href="./iletisim.html">İletişim</a>
+			  </nav>
+			</div>
+			<div class="mail-listesi">
+				<form>
+				  <input type="email" placeholder="E-posta Adresi">
+				  <button type="submit">Üye Ol</button>
+				</form>
+			  </div>
 			<!-- copyright -->
-			©2022 ERGİNEER Restoran Zinciri, Tüm hakları saklıdır.
+			<div class="son">
+			<p>©2022 ERGİNEER Restoran Zinciri, Tüm hakları saklıdır.</p>
+		</div>
 		</footer>
 	</div>
 </body>

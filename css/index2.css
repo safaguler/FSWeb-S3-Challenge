@@ -1,0 +1,180 @@
+@media (max-width: 1920px) and (min-width: 429px) {
+
+.conteiner h1{
+    color: rgb(225, 239, 230);
+    text-align: center;
+}
+.conteiner nav {   
+    
+    text-align: center;
+}
+.conteiner2 a{
+    
+    color: rgb(225, 239, 230);
+    margin: 100px;
+    
+}
+.social a img{
+    margin: 5rem;
+   width: 5rem;
+}
+.conteiner {
+    background-color: rgb(0, 4, 17, .8);
+}
+.foto-grup {
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  .foto-grup img {
+    width: 30%;
+    margin: 1%;
+    float: left;
+  }
+  .yemekler h2{
+    color: rgb(225, 239, 230);
+    text-align: center;
+  }
+.about-container {
+    color: rgb(225, 239, 230);   
+}
+.about-container h2{
+    height: 5rem;
+}
+.contact {
+    color: rgb(225, 239, 230);
+}
+#phone {
+    color: rgb(225, 239, 230);
+}
+#email {
+    color: rgb(225, 239, 230);
+}
+footer {
+    color: rgb(225, 239, 230);
+    background-color: rgb(0, 4, 17);
+}
+.mail-listesi {
+    margin-left: 2rem;
+}
+  
+  .mail-listesi form {
+    display: flex;
+    
+  }
+  
+  .mail-listesi input[type="email"] {
+    width: 15%;
+    font-size: 3rem;  
+  }
+  
+  .mail-listesi button[type="submit"] {
+    color: black;
+    font-size: 3rem;
+  }
+  .sondanOnce{
+    display: flex;
+  }
+.sondanOnce nav a{
+    color: rgb(225, 239, 230);
+}
+.sondanOnce a {
+        color: rgb(225, 239, 230);
+        margin: 100px;
+}
+.son p{
+  text-align: right;
+}
+}
+@media (max-width: 428px) {
+  /* header section */
+  .conteiner h1 {
+      width: 80%;
+      margin: 0rem 10%;
+      text-align: center;
+      font-size: 5rem;
+      color: rgb(225, 239, 230);
+    } 
+    .conteiner nav {   
+    
+      text-align: center;
+  }
+  .conteiner2 a{
+      
+      color: rgb(225, 239, 230);
+      margin: 100px;
+      
+  }
+  .social a img{
+      margin: 1rem;
+     width: 5rem;
+  }
+  .conteiner {
+      background-color: rgb(0, 4, 17, .8);
+  }
+  .foto-grup {
+      width: 70%;
+      margin: 0 auto;
+    }
+    
+    .foto-grup img {
+      width: 100%;
+      margin: 1%;
+      
+    }
+    .yemekler h2{
+      color: rgb(225, 239, 230);
+      text-align: center;
+    }
+  .about-container {
+      color: rgb(225, 239, 230);
+      margin 1%;   
+  }
+  .about-container h2{
+    margin 1%;
+    height: 1rem;
+  }
+  .contact {
+      color: rgb(225, 239, 230);
+  }
+  #phone {
+      color: rgb(225, 239, 230);
+  }
+  #email {
+      color: rgb(225, 239, 230);
+  }
+  footer {
+      color: rgb(225, 239, 230);
+      background-color: rgb(0, 4, 17);
+  }
+  .mail-listesi {
+      margin-left: 2rem;
+  }
+    
+    .mail-listesi form {
+      display: flex;
+      
+    }
+    
+    .mail-listesi input[type="email"] {
+      width: 15%;
+      font-size: 3rem;  
+    }
+    
+    .mail-listesi button[type="submit"] {
+      color: black;
+      font-size: 3rem;
+    }
+    .sondanOnce{
+      display: flex;
+    }
+  .sondanOnce nav a{
+      color: rgb(225, 239, 230);
+  }
+  .sondanOnce a {
+          color: rgb(225, 239, 230);
+          margin: 100px;
+  }
+  .son p{
+    text-align: right;
+  }
